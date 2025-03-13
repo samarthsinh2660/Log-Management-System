@@ -1,0 +1,58 @@
+/* Root container styles */
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Logo styles (if you decide to use them elsewhere) */
+.logo {
+  height: 5em;
+  margin: 1rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 0.5rem rgba(100, 108, 255, 0.8));
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 0.5rem rgba(97, 218, 251, 0.8));
+}
+
+/* Keyframes for spinning logo */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo.spin {
+    animation: logo-spin infinite 10s linear;
+  }
+}
+
+/* Card component styles (if needed) */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+/* Read the docs text */
+.read-the-docs {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 1rem;
+}
