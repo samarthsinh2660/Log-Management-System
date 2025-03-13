@@ -1,6 +1,4 @@
 
-
-```markdown
 # Log System Project
 
 This project is a digital log system application built using the PERN stack:
